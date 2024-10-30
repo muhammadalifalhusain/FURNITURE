@@ -11997,7 +11997,7 @@ body {
   transition: box-shadow 0.3s ease-in-out;
 }
 .navbar .navbar-nav a:hover {
-  color: #106eea;
+  color: #7b370a;
 }
 .navbar .getstarted {
   background-color: #106eea;
@@ -12057,6 +12057,7 @@ body {
 /* Portfolio and Team Sections */
 .portfolio .card,
 .team .card {
+  height: 100%;
   box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
 .portfolio .team .card-body i,

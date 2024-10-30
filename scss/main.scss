@@ -50,7 +50,7 @@ $nav-link-padding-y: 0.5rem; // Samakan unit dengan rem
             font-weight: 500;
             transition: box-shadow 0.3s ease-in-out;
             &:hover {
-                color: $secondary-color;
+                color: $primary-color;
             }
         }
     }
@@ -116,6 +116,7 @@ $nav-link-padding-y: 0.5rem; // Samakan unit dengan rem
 .portfolio,
 .team {
     .card {
+        height: 100%;
         box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
     }
     .team .card-body {
